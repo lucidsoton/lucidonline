@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+  <!-- SEO Title -->
+  <title>Lucid Southampton | Headshop, Vapes, CBD & Piercing Jewellery</title>
+
+  <!-- Meta Description -->
+  <meta name="description" content="Lucid Southampton — the city’s original headshop and alternative lifestyle store. Independent for over 25 years, we stock RAW, OCB, Rizla, Elements, Juicy Jays, Rips, IQOS and TEREA sticks, ZYN nicotine pouches, CBD, vape hardware from Crystal, Voopoo, Geekvape, OXVA, UWell, Vaporesso and Aspire, e-liquids from Vampire Vape, Crystal, ELUX and Drifter, piercing jewellery, and Cuban cigars including Cohiba, Montecristo, Partagas, Romeo y Julieta and Backwoods. We also carry Directions hair dye and more. Visit us in-store on East Street or online at www.lucidonline.shop." />
+
+  <!-- Meta Keywords -->
+  <meta name="keywords" content="Lucid Southampton, headshop Southampton, vape shop Southampton, CBD Southampton, smoking accessories, piercing jewellery Southampton, Cuban cigars Southampton, alternative lifestyle store" />
+
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Lucid Southampton",
+    "image": "https://www.lucidonline.shop/logo.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "111 East Street",
+      "addressLocality": "Southampton",
+      "postalCode": "SO14 3HD",
+      "addressCountry": "UK"
+    },
+    "telephone": "+44 2380 636636",
+    "url": "https://www.lucidonline.shop",
+    "sameAs": [
+      "http://instagram.com/lucid_southampton",
+      "https://www.facebook.com/lucid.southampton",
+      "https://m.me/lucid.southampton",
+      "https://wa.me/message/B5YH5FP4A5DDB1"
+    ],
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "11:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "11:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "11:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "11:00", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "11:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "11:00", "closes": "19:00" }
+    ],
+    "description": "Lucid is Southampton’s original headshop and alternative lifestyle store, proudly independent for over 25 years. We stock smoking accessories from leading brands such as RAW, OCB, Rizla, Elements, Juicy Jays and Rips, alongside CBD products, vape hardware from Crystal, Voopoo, Geekvape, OXVA, UWell, Vaporesso and Aspire, and e-liquids from Vampire Vape, Crystal, ELUX and Drifter. Our shelves also feature IQOS devices and TEREA sticks, and the full range of ZYN nicotine pouches. Beyond smoking and vaping, we carry Southampton’s biggest selection of piercing jewellery, plus Cuban cigars including Cohiba, Montecristo, Partagas, Romeo y Julieta and Backwoods. We also offer Directions hair dye, festival accessories and seasonal items. At Lucid we pride ourselves on genuine products, competitive prices, and friendly, non‑judgemental service for students, professionals, ravers and the city’s alternative community."
+  }
+  </script>
+
+  <!-- Favicon using local logo -->
+  <link rel="icon" type="image/jpeg" href="logo.jpg" />
+  <style>
+    * { box-sizing: border-box; max-width: 100%; }
+
+    body {
+      margin: 0;          /* reset default margins */
+      padding: 0 15px;    /* add a little space left & right */
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      scroll-behavior: smooth;
+      overflow-x: hidden; /* prevent sideways scroll */
+    }
+
+    header {
+      padding: 40px 20px 20px;
+      background: #000;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    }
+    .logo {
+      max-width: 140px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      object-fit: cover;
+      aspect-ratio: 1 / 1;
+    }
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 2.4em;
+      font-weight: 700;
+      color: #FF7D01;
+    }
+    .tagline {
+      font-size: 1.1em;
+      color: #ccc;
+      margin-bottom: 10px;
+    }
+    /* 3D glossy buttons */
+    .button {
+      position: relative;
+      display: block;
+      margin: 12px auto;
+      padding: 16px 16px 16px 50px;
+      width: 90%;
+      max-width: 360px;
+      font-weight: bold;
+      font-size: 1.05em;
+      border-radius: 14px;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.2);
+      transition: transform 0.1s ease-in-out;
+      overflow: hidden;
+    }
+    .button::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 40%;
+      background: rgba(255,255,255,0.25);
+      border-top-left-radius: 14px;
+      border-top-right-radius: 14px;
+      pointer-events: none;
+    }
+    .button:active {
+      transform: scale(0.96);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.5), inset 0 2px 4px rgba(0,0,0,0.3);
+    }
+    .button img {
+      position: absolute;
+      left: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 30px;
+      height: 30px;
+    }
+
+    .orange { background: linear-gradient(135deg, #FFB347, #FF7D01, #a83200); }
+    .whatsapp { background: linear-gradient(135deg, #6ef7a7, #25D366, #075E54); }
+    .messenger { background: linear-gradient(135deg, #00B2FF, #006AFF); }
+    .instagram { background: linear-gradient(135deg, #feda75, #d62976, #962fbf, #4f5bd5); }
+    .facebook { background: linear-gradient(135deg, #1877F2, #3b5998); }
+    .promo { background: linear-gradient(135deg, #ff3d3d, #ff7d01); }
+
+    /* Premises photo card */
+    .image-card {
+      max-width: 420px;
+      margin: 40px auto 20px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 4px solid rgba(255,125,1,0.3);
+      background: rgba(255,255,255,0.05);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.4);
+    }
+    .image-card img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    /* Contact info card */
+    .contact-info {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 10px 15px;
+      justify-content: center;
+      max-width: 420px;
+      margin: 40px auto 0;
+      padding: 15px 20px;
+      background: rgba(255,255,255,0.05);
+      border: 3px solid rgba(255,125,1,0.3);
+      border-radius: 12px;
+      text-align: left;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.4);
+      overflow-x: hidden; /* keep children from overflowing */
+    }
+    .contact-item { font-size: 0.95em; color: #eee; }
+    .contact-item a { color: #FF7D01; text-decoration: none; font-weight: 600; }
+
+    /* Hours embed inside contact card */
+    .hours-card { grid-column: 1 / -1; margin-top: 15px; text-align: center; }
+    .hours-card h3 { margin: 0 0 10px; color: #FF7D01; font-size: 1.1em; }
+    .hours-card iframe { width: 100%; max-width: 100%; display: block; border: 0; border-radius: 8px; }
+
+    /* Bottom socials split */
+    .social-sections {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      margin: 40px 0 10px;
+      flex-wrap: wrap;
+    }
+    .social-group { text-align: center; min-width: 220px; }
+    .social-group h3 { font-size: 1em; color: #FF7D01; margin-bottom: 10px; }
+    .social-icons { display: flex; justify-content: center; gap: 14px; }
+    .social-icons a {
+      display: inline-flex;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.08);
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(255,255,255,0.15);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+    .social-icons a:hover { transform: scale(1.06); background: rgba(255,255,255,0.14); }
+    .social-icons img { width: 20px; height: 20px; filter: invert(1); }
+
+    footer { font-size: 0.8em; color: #aaa; padding: 14px 20px 24px; }
+
+.pride-text-static {
+  background: linear-gradient(
+    45deg,
+    #e40303 16.6%,       /* red */
+    #ff8c00 16.6% 33.2%, /* orange */
+    #ffed00 33.2% 49.8%, /* yellow */
+    #008026 49.8% 66.4%, /* green */
+    #004dff 66.4% 80%,   /* blue */
+    #750787 80% 100%     /* violet */
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.brand-list {
+  columns: 2;              /* two columns */
+  column-gap: 30px;        /* space between columns */
+  font-size: 0.95em;
+  max-width: 600px;   /* keeps it from stretching too wide */
+  margin: 0 auto;     /* centers it */
+  color: #eee;
+}
+
+.brand-category {
+  break-inside: avoid;     /* keeps each category together */
+  margin-bottom: 15px;
+}
+
+.brand-category strong {
+  display: block;          /* puts category label on its own line */
+  color: #FF7D01;          /* optional: accent colour */
+  margin-bottom: 3px;
+}
+
+.brand-names {
+  margin-left: 10px;       /* slight indent for brand names */
+}
+
+.plus-more {
+  font-size: 1.2em;   /* bump size up 20% */
+  color: #FF7D01;     /* optional: make it your accent orange */
+}
+
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img class="logo" src="logo.jpg" alt="Lucid Southampton logo — alternative lifestyle and headshop" />
+    <h1>Welcome to Lucid</h1>
+    <div class="tagline">Southampton's <b>Original</b> Headshop and <b><i>your</b></i> destination for alternative lifestyle products</div>
+  </header>
+
+  <!-- Buttons with updated links -->
+  <a class="button orange" href="#contact-card">
+    <img src="https://assets.production.linktr.ee/tabler-icons/outline/clock.svg" alt="Clock icon" />
+    Opening Times
+  </a>
+
+  <a class="button orange" href="https://goo.gl/maps/yujag2xtZt2js8wG8">
+    <img src="https://assets.production.linktr.ee/tabler-icons/outline/map-2.svg" alt="Map icon" />
+    Visit Us
+  </a>
+
+  <a class="button whatsapp" href="https://wa.me/message/B5YH5FP4A5DDB1">
+  <img src="https://assets.production.linktr.ee/tabler-icons/outline/brand-whatsapp.svg" alt="WhatsApp icon" />
+  Message us on WhatsApp
+  </a>
+
+  <a class="button messenger" href="https://m.me/lucid.southampton">
+    <img src="https://assets.production.linktr.ee/tabler-icons/outline/brand-messenger.svg" alt="Messenger icon" />
+    Message us on Messenger
+  </a>
+
+  <a class="button instagram" href="http://instagram.com/lucid_southampton">
+    <img src="https://assets.production.linktr.ee/tabler-icons/outline/brand-instagram.svg" alt="Instagram icon" />
+    Find us on Instagram
+  </a>
+
+  <a class="button facebook" href="https://www.facebook.com/lucid.southampton">
+    <img src="https://assets.production.linktr.ee/tabler-icons/outline/brand-facebook.svg" alt="Facebook icon" />
+    Find us on Facebook
+  </a>
+
+<a class="button promo" href="https://www.iqos.com/gb/en/try.html?registration_retailer_id=0014H00002ZZVTRQA5">
+  <span style="position:absolute; left:18px; top:50%; transform:translateY(-50%); font-size:23px;">🔥</span>
+  Try IQOS for just £10!
+  <span style="position:absolute; right:18px; top:50%; transform:translateY(-50%); font-size:23px;">🔥</span>
+</a>
+
+
+  <!-- Premises photo -->
+  <div class="image-card">
+    <img src="premesis.jpg" alt="Lucid Southampton shopfront on East Street" />
+  </div>
+
+  <!-- Contact card -->
+<div id="contact-card" class="contact-info">
+  <div>📍</div>
+  <div class="contact-item" style="font-size:1.05em; font-weight:600; line-height:1.4;">
+    <h2 style="margin:0 0 6px; font-size:1.2em; color:#FF7D01;">Our Address</h2>
+    <a href="https://goo.gl/maps/yujag2xtZt2js8wG8" style="color:#fff; text-decoration:none;">
+      111 East Street<br />
+      Southampton<br />
+      SO14 3HD
+    </a>
+  </div>
+
+  <div>📞</div>
+  <div class="contact-item" style="font-size:1.2em; font-weight:700;">
+    <a href="tel:+442380636636" style="color:#FF7D01; text-decoration:none;">
+      02380 636 636
+    </a>
+  </div>
+
+    <!-- Hours embed -->
+    <div class="hours-card">
+    <h2 style="margin:0 0 10px; color:#FF7D01; font-size:1.2em;">Normal Opening Hours</h2>
+      <table style="margin:0 auto; border-collapse:collapse; color:#eee; font-size:0.95em; width:auto;">
+        <tr>
+          <td style="padding:4px 12px; text-align:left;">Monday</td>
+          <td style="padding:4px 12px;">11:00–19:00</td>
+        </tr>
+        <tr style="background:rgba(255,125,1,0.15);">
+          <td style="padding:4px 12px; text-align:left;">Tuesday</td>
+          <td style="padding:4px 12px;">11:00–19:00</td>
+        </tr>
+        <tr>
+          <td style="padding:4px 12px; text-align:left;">Wednesday</td>
+          <td style="padding:4px 12px;">11:00–19:00</td>
+        </tr>
+        <tr style="background:rgba(255,125,1,0.15);">
+          <td style="padding:4px 12px; text-align:left;">Thursday</td>
+          <td style="padding:4px 12px;">11:00–18:00</td>
+        </tr>
+        <tr>
+          <td style="padding:4px 12px; text-align:left;">Friday</td>
+          <td style="padding:4px 12px;">11:00–19:00</td>
+        </tr>
+        <tr style="background:rgba(255,125,1,0.15);">
+          <td style="padding:4px 12px; text-align:left;">Saturday</td>
+          <td style="padding:4px 12px;">11:00–19:00</td>
+        </tr>
+        <tr>
+          <td style="padding:4px 12px; text-align:left;">Sunday</td>
+          <td style="padding:4px 12px;">Closed</td>
+        </tr>
+      </table>
+      <p style="margin-top:10px; font-size:0.85em; color:#ccc;">
+        For up-to-date hours, check us out on 
+        <a href="https://goo.gl/maps/yujag2xtZt2js8wG8" style="color:#FF7D01; text-decoration:none; font-weight:600;">Google</a>, 
+        give us a <a href="tel:+442380636636" style="color:#FF7D01; text-decoration:none; font-weight:600;">Call</a> 
+        or message us on <a href="https://wa.me/message/B5YH5FP4A5DDB1" style="color:#FF7D01; text-decoration:none; font-weight:600;">WhatsApp</a>.
+      </p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2100.1009207080006!2d-1.405064224186931!3d50.90170855477105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487476b5cfdc8cdb%3A0xf7dec31ca0807b9f!2sLucid!5e1!3m2!1sen!2suk!4v1761434985799!5m2!1sen!2suk"
+        width="100%" height="220" style="border:0; border-radius:8px; margin-top:10px;"
+        allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+
+<div style="max-width:700px; margin:50px auto; font-size:0.95em; line-height:1.6; color:#ccc; text-align:justify;">
+  <h2 style="font-size:1.2em; color:#FF7D01; margin-bottom:10px; text-align:center;">About Lucid</h2>  
+
+  <p>
+    Lucid is Southampton’s original headshop and alternative lifestyle store, 
+    <span class="pride-text-static">proudly</span> independent for over 25 years.
+  </p>
+
+  <p>
+    We offer one of the city’s widest ranges of <strong>smoking accessories</strong> — from rolling papers, filters, blunt wraps, 
+    cones, lighters, grinders, bongs, pipes and trays to RAW lifestyle gear and stash products. 
+    Our shelves also feature <strong>CBD products</strong>, <strong>vape hardware and e-liquids</strong>, 
+    <strong>IQOS Devices</strong> and the <strong>full range</strong> of <strong>TEREA sticks</strong>, as well as the full range of <strong>ZYN nicotine pouches</strong>.
+  </p>
+
+  <p>
+    Beyond smoking and vaping, we carry Southampton’s biggest selection of <strong>piercing jewellery</strong>, 
+    plus Cuban cigars, hair dye, festival accessories and seasonal items. 
+    At Lucid we pride ourselves on genuine products, competitive prices, and friendly, non‑judgemental service 
+    for students, professionals, ravers and the city’s alternative community.
+  </p>
+</div>
+
+<div>
+  <h2 style="font-size:1.2em; color:#FF7D01; margin-bottom:10px; text-align:center;">Brands we stock:</h2><br>
+</div>
+
+<div class="brand-list">
+  <div class="brand-category">
+    <strong>Smoking Accessories:</strong>
+    <div class="brand-names">RAW, OCB, Rizla, Elements, Juicy Jays, Rips</div>
+  </div>
+
+  <div class="brand-category">
+    <strong>Vape Hardware:</strong>
+    <div class="brand-names">Crystal, Voopoo, Geekvape, OXVA, UWell, Vaporesso, Aspire</div>
+  </div>
+
+  <div class="brand-category">
+    <strong>E‑Liquids:</strong>
+    <div class="brand-names">Vampire Vape, Crystal, ELUX, Drifter</div>
+  </div>
+
+  <div class="brand-category">
+    <strong>Nicotine Alternatives:</strong>
+    <div class="brand-names">IQOS, TEREA sticks, ZYN</div>
+  </div>
+
+  <div class="brand-category">
+    <strong>Cuban Cigars:</strong>
+    <div class="brand-names">Cohiba, Montecristo, Partagas, Romeo y Julieta, Backwoods</div>
+  </div>
+
+  <div class="brand-category">
+    <strong>Hair Dye:</strong>
+    <div class="brand-names">Directions</div>
+  </div>
+
+  <div class="brand-category plus-more">
+    <strong><em>Plus many more...!</em></strong>
+  </div>
+</div>
+
+
+
+  <!-- Split socials -->
+<div class="social-sections">
+  <div class="social-group">
+    <h2 style="font-size:1.1em; color:#FF7D01; margin-bottom:10px;">Connect With Us</h2>
+    <div class="social-icons">
+      <a href="http://instagram.com/lucid_southampton" aria-label="Instagram">
+        <img src="https://assets.production.linktr.ee/tabler-icons/outline/brand-instagram.svg" alt="" />
+      </a>
+      <a href="https://www.facebook.com/lucid.southampton" aria-label="Facebook">
+        <img src="https://assets.production.linktr.ee/tabler-icons/outline/brand-facebook.svg" alt="" />
+      </a>
+    </div>
+  </div>
+  <div class="social-group">
+    <h2 style="font-size:1.1em; color:#FF7D01; margin-bottom:10px;">Message Us</h2>
+    <div class="social-icons">
+      <a href="https://wa.me/message/B5YH5FP4A5DDB1" aria-label="WhatsApp">
+        <img src="https://assets.production.linktr.ee/tabler-icons/outline/brand-whatsapp.svg" alt="" />
+      </a>
+      <a href="https://m.me/lucid.southampton" aria-label="Messenger">
+        <img src="https://assets.production.linktr.ee/tabler-icons/outline/brand-messenger.svg" alt="" />
+      </a>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© Lucid Southampton</p>
+  </footer>
+</body>
+</html>
