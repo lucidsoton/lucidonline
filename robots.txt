@@ -1,0 +1,10 @@
+# robots.txt for lucidonline.shop
+
+User-agent: *
+Allow: /
+
+# Disallow crawling of error page
+Disallow: /404.html
+
+# Sitemap location
+Sitemap: https://lucidonline.shop/sitemap.xml
