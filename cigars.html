@@ -72,18 +72,24 @@
     gtag('config', 'G-58KQ5XTNS4');
   </script>
 
- <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["LocalBusiness","Store"],
+      "@type": ["LocalBusiness", "Store", "TobaccoShop"],
       "@id": "https://lucidonline.shop/cigars#store",
       "name": "Lucid",
       "alternateName": "Lucid Southampton",
       "url": "https://lucidonline.shop/cigars",
+      "logo": "https://lucidonline.shop/assets/images/logo.jpg",
       "image": "https://lucidonline.shop/assets/images/logo.jpg",
+      "description": "Located at 111 East Street in Southampton, Lucid is a specialist tobacconist and cigar retailer serving the city and surrounding areas. Our local store offers an extensive range of premium Cuban cigars, EMS‑certified Havanas, and everyday imported brands, all stored in a humidity‑controlled humidor to guarantee freshness and authenticity. Customers can explore world‑renowned names such as Cohiba, Montecristo, Romeo y Julieta, Partagás, Punch, Hoyo de Monterrey, H. Upmann, Rafael González, José L. Piedra, Quintero, Guantanamera, Backwoods, La Invicta and more. Alongside cigars, Lucid Southampton provides EMS accessories including cutters, ashtrays, tubes, matches and humidified pouches, with knowledgeable staff on hand to offer expert guidance. At Christmas we also create set‑price bundles and provide gift packaging, making Lucid the destination for cigar gifts in Southampton. Whether you are a seasoned cigar aficionado or new to the world of cigars, Lucid is your trusted local cigar shop and tobacconist."
+,
+      "branchOf": { "@id": "https://lucidonline.shop/#store" },
       "telephone": "+442380636636",
+      "priceRange": "£",
+      "paymentAccepted": ["Cash", "Credit Card", "Debit Card", "Contactless Payment"],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "111 East Street",
@@ -97,8 +103,6 @@
         "longitude": "-1.4024893"
       },
       "hasMap": "https://www.google.com/maps?cid=17860927699917241247",
-      "description": "Lucid is a specialist cigar shop in Southampton offering premium Cuban and other fine cigars. Our curated selection features renowned brands such as Cohiba, Montecristo, Romeo y Julieta, Partagás, Punch, Hoyo de Monterrey, H. Upmann, Vegueros, Rafael González, José L. Piedra, Quintero, Guantanamera, Backwoods, La Invicta and more. All Havanas are EMS (English Market Selection) Standard, ensuring authenticity and quality, and every cigar is stored in a humidity‑controlled humidor to preserve perfect condition. In‑store, our knowledgeable team is always on hand to offer expert advice and help you choose the right cigar. Alongside Cuban classics, we also provide a wide range of imported and everyday cigars, plus EMS‑approved accessories, to suit both aficionados and newcomers. Visit us at 111 East Street, Southampton or explore our cigar collection online.",
-      "priceRange": "£",
       "openingHoursSpecification": [
         { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "11:00", "closes": "19:00" },
         { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "11:00", "closes": "19:00" },
@@ -108,44 +112,95 @@
         { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "11:00", "closes": "19:00" },
         { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "00:00", "closes": "00:00" }
       ],
-      "paymentAccepted": ["Cash","Credit Card","Debit Card","Contactless Payment"],
       "sameAs": [
         "https://www.instagram.com/lucid_southampton",
         "https://www.facebook.com/lucid.southampton",
         "https://m.me/lucid.southampton",
-        "https://wa.me/message/B5YH5FP4A5DDB1"
+        "https://wa.me/message/B5YH5FP4A5DDB1",
+        "https://www.google.com/maps?cid=17860927699917241247"
       ],
-      "additionalType": "https://schema.org/TobaccoShop",
+      "additionalType": [
+        "https://schema.org/CigarShop",
+        "https://schema.org/TobaccoShop",
+        "https://schema.org/GiftShop"
+      ],
+      "brand": [
+        { "@type": "Brand", "name": "Cohiba", "category": "Cigars" },
+        { "@type": "Brand", "name": "Montecristo", "category": "Cigars" },
+        { "@type": "Brand", "name": "Romeo y Julieta", "category": "Cigars" },
+        { "@type": "Brand", "name": "Partagás", "category": "Cigars" },
+        { "@type": "Brand", "name": "Punch", "category": "Cigars" },
+        { "@type": "Brand", "name": "Hoyo de Monterrey", "category": "Cigars" },
+        { "@type": "Brand", "name": "H. Upmann", "category": "Cigars" },
+        { "@type": "Brand", "name": "Vegueros", "category": "Cigars" },
+        { "@type": "Brand", "name": "Rafael González", "category": "Cigars" },
+        { "@type": "Brand", "name": "José L. Piedra", "category": "Cigars" },
+        { "@type": "Brand", "name": "Quintero", "category": "Cigars" },
+        { "@type": "Brand", "name": "Guantanamera", "category": "Cigars" },
+        { "@type": "Brand", "name": "Backwoods", "category": "Cigars" },
+        { "@type": "Brand", "name": "La Invicta", "category": "Cigars" }
+      ],
+      "knowsAbout": [
+        "Cigars",
+        "Cuban Cigars",
+        "Hand-Rolled Cigars",
+        "Premium Cigars",
+        "Everyday Cigars",
+        "Cigar Accessories",
+        "Cigar Cutters",
+        "Cigar Matches",
+        "Cigar Tubes",
+        "Cigar Ashtrays",
+        "Humidors",
+        "EMS Cigars",
+        "English Market Selection Cigars",
+        "Southampton Cigar Shop",
+        "Cigar Storage",
+        "Cigar Advice",
+        "Cigar Gifts",
+        "Imported Cigars",
+        "Cigar Smoking Lounge"
+      ],
+      "areaServed": [
+        { "@type": "City", "name": "Southampton" },
+        { "@type": "City", "name": "Portsmouth" },
+        { "@type": "City", "name": "Winchester" },
+        { "@type": "City", "name": "Eastleigh" },
+        { "@type": "City", "name": "Fareham" },
+        { "@type": "City", "name": "Havant" },
+        { "@type": "City", "name": "Chandler's Ford" },
+        { "@type": "City", "name": "Romsey" },
+        { "@type": "City", "name": "New Forest" }
+      ],
       "makesOffer": [
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Cohiba Cigars", "brand": { "@type": "Brand", "name": "Cohiba" }, "category": "Cigars" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Montecristo Cigars", "brand": { "@type": "Brand", "name": "Montecristo" }, "category": "Cigars" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Romeo y Julieta Cigars", "brand": { "@type": "Brand", "name": "Romeo y Julieta" }, "category": "Cigars" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Partagás Cigars", "brand": { "@type": "Brand", "name": "Partagás" }, "category": "Cigars" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Punch Cigars", "brand": { "@type": "Brand", "name": "Punch" }, "category": "Cigars" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Hoyo de Monterrey Cigars", "brand": { "@type": "Brand", "name": "Hoyo de Monterrey" }, "category": "Cigars" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "H. Upmann Cigars", "brand": { "@type": "Brand", "name": "H. Upmann" }, "category": "Cigars" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Vegueros Cigars", "brand": { "@type": "Brand", "name": "Vegueros" }, "category": "Cigars" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Rafael González Cigars", "brand": { "@type": "Brand", "name": "Rafael González" }, "category": "Cigars" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "José L. Piedra Cigars", "brand": { "@type": "Brand", "name": "José L. Piedra" }, "category": "Cigars" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Quintero Cigars", "brand": { "@type": "Brand", "name": "Quintero" }, "category": "Cigars" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Guantanamera Cigars", "brand": { "@type": "Brand", "name": "Guantanamera" }, "category": "Cigars" } },
-
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Backwoods Cigars", "brand": { "@type": "Brand", "name": "Backwoods" }, "category": "Cigars" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "La Invicta Cigars", "brand": { "@type": "Brand", "name": "La Invicta" }, "category": "Cigars" } },
-
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Cigar Cutter", "brand": { "@type": "Brand", "name": "EMS" }, "category": "Cigar Accessories" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Cigar Matches", "brand": { "@type": "Brand", "name": "EMS" }, "category": "Cigar Accessories" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Cigar Tube (Storage & Transport)", "brand": { "@type": "Brand", "name": "EMS" }, "category": "Cigar Accessories" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Cigar Ashtray", "brand": { "@type": "Brand", "name": "EMS" }, "category": "Cigar Accessories" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Humidified Pouch (Up to 90 Days Storage)", "brand": { "@type": "Brand", "name": "EMS" }, "category": "Cigar Accessories" } }
-      ]
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "serviceType": "Cigar Retail" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "serviceType": "Cigar Accessories" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "serviceType": "Expert Cigar Advice" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "serviceType": "Humidor Storage Solutions" } }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Lucid Cigar Categories",
+        "itemListElement": [
+          { "@type": "OfferCatalog", "name": "Cuban Cigars" },
+          { "@type": "OfferCatalog", "name": "Premium Cigars" },
+          { "@type": "OfferCatalog", "name": "Everyday Cigars" },
+          { "@type": "OfferCatalog", "name": "Cigar Accessories" },
+          { "@type": "OfferCatalog", "name": "Humidors" },
+          { "@type": "OfferCatalog", "name": "Cigar Gifts" },
+          { "@type": "OfferCatalog", "name": "Special Orders & Rare Cigars" }
+        ]
+      }
     },
     {
       "@type": "WebPage",
-      "name": "Cigars - Lucid Southampton",
+      "@id": "https://lucidonline.shop/cigars#webpage",
       "url": "https://lucidonline.shop/cigars",
-      "description": "Discover Lucid’s specialist cigar shop in Southampton, showcasing premium Cuban and other fine cigars. Our curated range includes Cohiba, Montecristo, Romeo y Julieta, Partagás, Punch, Hoyo de Monterrey, H. Upmann, Vegueros, Rafael González, José L. Piedra, Quintero, Guantanamera, Backwoods, La Invicta and more. Every Havana is EMS (English Market Selection) Standard and stored in a humidity‑controlled humidor to guarantee authenticity, freshness and quality. In‑store, our knowledgeable team is available to offer expert advice and help you choose the right cigar. Whether you are searching for Cuban cigars in Southampton or looking to buy cigars online across the UK, this page highlights our collection for both seasoned aficionados and newcomers.",
+      "name": "Cigars | Lucid Southampton",
+      "description": "This dedicated cigars page from Lucid highlights our curated selection of premium brands. Visitors can explore Cuban classics including Cohiba, Montecristo, Romeo y Julieta, Partagás, Punch, Hoyo de Monterrey, H. Upmann, Rafael González, José L. Piedra, Quintero, Guantanamera, Backwoods and La Invicta, all Havanas are EMS‑certified for authenticity. The page details our humidity‑controlled humidor storage, expert guidance for recommendations and advice, and a full range of cigar accessories such as cutters, tubes, ashtrays, matches and humidified pouches. During the festive season, this page also showcases our set‑price Christmas bundles and gift packaging options, helping customers find the perfect cigar gifts. Welcoming both seasoned cigar enthusiasts and newcomers, this page connects customers in Southampton with Lucid’s local cigar shop, providing information on products, services, and how to visit or contact us directly. It reinforces Lucid’s role as Southampton’s trusted cigar shop and tobacconist.",
+
       "inLanguage": "en-GB",
+      "isPartOf": { "@id": "https://lucidonline.shop/cigars#store" },
       "publisher": {
         "@type": "Organization",
         "name": "Lucid",
@@ -157,17 +212,12 @@
           "height": 630
         }
       },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://lucidonline.shop/cigars"
-      },
-      "isPartOf": {
-        "@id": "https://lucidonline.shop/cigars#store"
-      }
+      "mainEntity": { "@id": "https://lucidonline.shop/cigars#store" }
     }
   ]
 }
 </script>
+
 
   <style>
     body {
@@ -299,12 +349,24 @@
   <main>
     <img src="logo.jpg" alt="Lucid Southampton Logo" class="logo" />
     <h1>Premium Cigars at Lucid Southampton</h1>
-    <p><strong>Located in the heart of Southampton, Lucid is your specialist cigar shop, dedicated to bringing the finest Cuban and premium cigars to the city.</strong><br>
-Whether you’re a seasoned aficionado or exploring cigars for the first time, we have a cigar for you. Our carefully curated collection features world‑renowned brands including Cohiba, Montecristo, Romeo y Julieta, Partagás, Punch, Hoyo de Monterrey, H. Upmann, Rafael González, José L. Piedra, Quintero, Guantanamera, Backwoods, La Invicta and more.</p>
+    <h2>Lucid in Southampton – Celebrating the Heritage of Cigars</h2>
+<p>For centuries, cigars have been a symbol of craftsmanship, culture and celebration. At Lucid in Southampton, we honour this tradition by offering a carefully curated selection of premium Cuban and international cigars, bringing the rich heritage of cigar smoking to the heart of the city. Whether enjoyed as a mark of achievement, a moment of reflection, or a shared ritual among friends, cigars embody a timeless culture that we are proud to represent.</p>
 
-<p>Every Havana we stock is EMS (English Market Selection) Standard, guaranteeing authenticity and quality. To preserve perfect condition, all cigars are stored in our humidity‑controlled humidor. Whether you’re looking for a classic Cuban or something new to try, our knowledgeable team is always on hand to offer expert guidance and recommendations.</p>
+<h2>Premium Cuban Classics and World-Renowned Brands</h2>
+<p>Our collection showcases EMS-certified Havanas, guaranteeing authenticity and quality. Explore legendary names such as Cohiba, Montecristo, Romeo y Julieta, Partagás, Punch, Hoyo de Monterrey, H. Upmann, Rafael González, José L. Piedra, Quintero, Guantanamera, Backwoods, La Invicta and more. Each cigar reflects generations of expertise, blending tradition with distinctive flavour profiles that have captivated aficionados worldwide.</p>
 
-<p>Alongside Cuban classics, we also provide a wide range of imported and everyday cigars, plus EMS‑branded accessories such as cutters, matches, tubes, ashtrays and humidified pouches. Visit us at <strong>111 East Street, Southampton</strong>, or get in touch directly by phone or WhatsApp to find out more and experience the icons of craftsmanship for yourself.</p>
+<h3>Humidity-Controlled Storage for Perfect Condition</h3>
+<p>To preserve the integrity of every cigar, our stock is maintained in a humidity-controlled humidor. This ensures freshness, consistency and the true character of each Havana, allowing customers to experience cigars exactly as their makers intended.</p>
+
+<h2>Expert Knowledge, Accessories and Guidance</h2>
+<p>Our knowledgeable team is passionate about sharing the art of cigar smoking. From helping newcomers choose their first cigar to guiding seasoned enthusiasts toward rare selections, we provide expert recommendations tailored to every customer. Alongside cigars, Lucid offers EMS-branded accessories including cutters, matches, tubes, ashtrays and humidified pouches, completing the ritual with authentic tools of the trade.</p>
+
+<h2>Seasonal Bundles and Gift Packaging</h2>
+<p>At Christmas and other special occasions, Lucid creates set-price bundles and gift packaging options, making it easy to share the tradition of cigar smoking with friends, family or colleagues. These curated packs celebrate the joy of giving while introducing recipients to the world’s most iconic cigars.</p>
+
+<h2>Visit Lucid Southampton – Your Trusted Cigar Shop</h2>
+<p>Located at 111 East Street, Southampton, Lucid is proud to be the city’s trusted tobacconist and cigar specialist. We invite you to explore our full range in-store or contact us directly by phone or WhatsApp. Whether you seek Cuban classics, everyday favourites, or expert advice, Lucid Southampton connects you with the heritage, culture and craftsmanship of cigars.</p>
+
 
 
     <p><h2>Cigar Brands we stock:</h2></p>
@@ -332,6 +394,7 @@ Whether you’re a seasoned aficionado or exploring cigars for the first time, w
 
 </body>
 </html>
+
 
 
 
